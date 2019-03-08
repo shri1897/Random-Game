@@ -1,0 +1,43 @@
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    max-width: 600px;
+}
+#text-input {
+    display: block;
+    justify-content: center;
+    max-width: 600px;
+}
+#main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#max-buttons {
+    border: 1px solid #e7e7e7;
+    width: 550px;
+    text-align: center;
+    font-size: 25px;
+    padding: 12px, 0px;
+    border-radius: 10px;
+}
+.selectedClass {
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    height: 90px;
+    width:  90px;
+    background-color: grey;
+    color: #888888;
+}
+.unselectedClass {
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    height: 90px;
+    width: 90px;
+    color: white;
+    background-color: #444444;
+}
